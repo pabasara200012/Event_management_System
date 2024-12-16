@@ -1,0 +1,179 @@
+body{
+    display: flex;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-nav-sectoin{
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    width: 15%;
+    height: 100vh;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.main-nav{
+    display: block;
+    background-color: rgb(29, 29, 29);
+    width: 88%;
+    height: 100vh;
+    padding: 0px 25px 0px 10px;
+    margin: 0px;
+    box-shadow: 0px 0px 30px rgb(59, 59, 59);
+    z-index: 2;
+}
+
+.admin-button , .event-button , .admin-infor-button, .add-admin-button, .help-button , .LogOut-button{
+    background-color: rgb(53, 54, 53);
+    padding: 10px 20px 10px 20px;
+    margin: 3px !important;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.admin-button:hover{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.admin-button :focus{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.event-button:hover{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.event-button :active{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.help-button:hover{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.help-button :focus{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.admin-infor-button:hover{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.admin-infor-button :focus{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.add-admin-button :hover{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.add-admin-button :focus{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+.logout-button:hover{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.logout-button :focus{
+    background-color: #AD49E1;
+    padding: 10px 20px 10px 20px;
+    margin: 3px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+h2{
+    padding-left: 20px;
+    color: aliceblue;
+    position: relative;
+    font-weight: 500;
+}
+
+.logo-section{
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.content{
+    display: block;
+    position: relative;
+    padding: 0px 30px 20px 50px;
+    background-color: rgb(242, 242, 242);
+    width: 80%;
+}
